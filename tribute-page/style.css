@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:ital@1&family=Rubik:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: rgb(224, 221, 221);
+}
+
+.container-1 {
+    padding-top: 2rem;
+}
+
+header {
+    color: white;
+    background-color: rgb(83, 68, 95);
+    height: 7rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 43px;
+    padding-top: 2rem;
+    text-shadow: 1rem 1.5rem 0.9rem #220f25;
+}
+
+.msimg {
+    padding-top: 2rem;
+}
+
+.img-1 {
+    height: 300px;
+    width: 300px;
+    border-radius: 12px;
+    right: 5rem;
+    position: relative;
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 1rem 1rem 2rem black;
+}
+
+.img-1:hover {
+    transform: scale(1.1);
+}
+
+.img-2 {
+    height: 320px;
+    width: 450px;
+    border-radius: 10px;
+    position: relative;
+    left: 4rem;
+    top: 1rem;
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out;
+    box-shadow: 1rem 1rem 2rem black;
+}
+
+h2 {
+    font-style: italic;
+    padding-left: 2rem;
+}
+
+.img-2:hover {
+    transform: scale(1.1);
+}
+
+.para-1 {
+    text-align: justify;
+}
+
+.para-2 {
+    text-align: justify;
+}
+
+.content {
+    padding: 10px 8px;
+}
+
+p {
+    font-size: 21px;
+    padding-left: 2rem;
+}
+
+.container-1 {
+    display: flex;
+    /* margin: 14px; */
+    gap: 9rem;
+    padding-top: 2rem;
+}
+
+.container-2 {
+    padding-top: 2rem;
+    display: flex;
+    /* margin: 14px; */
+    gap: 7rem;
+    padding-top: 5rem;
+}
+
+.msimg2 {
+    padding-top: 2rem;
+}
+
+.para-1 {
+    padding: 1.5rem 0 1.5rem 1.5rem;
+}
+
+.para-2 {
+    padding: 1.5rem 0 1.5rem 1.5rem;
+}
+
+.para-3 {
+    padding: 1.5rem 0 1.5rem 1.5rem;
+}
+
+.para-4 {
+    padding: 1.5rem 0 1.5rem 1.5rem;
+}
+
+
+.quote {
+    width: 45vw;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    /* font-family: "Titillium Web", sans-serif; */
+    font-style: oblique;
+    padding: 5rem;
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out;
+    margin-left: 425px;
+}
+
+footer {
+    text-align: center;
+    cursor: pointer;
+    background-color: rgb(170, 161, 161);
+    padding: 20px;
+    color: black;
+}
